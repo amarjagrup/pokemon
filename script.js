@@ -1,4 +1,4 @@
-const pokemon_container = document.getElementById('pokedex');
+const pokemonContainer = document.getElementById('pokedex');
 
 const getPokemon = async id => {
 	const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
@@ -32,7 +32,7 @@ function displayPokemonCard(pokemon) {
 
 	pokemonElement.innerHTML = innerHTML;
 
-	pokemon_container.appendChild(pokemonElement);
+	pokemonContainer.appendChild(pokemonElement);
  }
 
 fetchPokemons();
