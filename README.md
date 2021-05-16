@@ -1,5 +1,5 @@
 # pokemon
-This is a small project that uses the pokemon API and displays information about different pokemons.
+This is a small project that uses the pokemon API and displays information about different pokemons. The code displays the first 150 pokemons. 
 
 
 This is how one row of the website looks like:
